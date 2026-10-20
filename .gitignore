@@ -1,0 +1,16 @@
+# === NE PAS COMMITTER : données et générés ===
+data/
+**/target/
+data/checkpoint/
+
+# === IDE / outils ===
+.metals/
+.bloop/
+.vscode/
+project/metals.sbt
+project/project/
+.bsp/
+
+# === Système ===
+*.crc
+.DS_Store
